@@ -35,7 +35,7 @@ pipeline {
                     steps {
                         sh '''
                             #test -f build/index.html
-                            CI=true npm test
+                            npm test
                         '''
                     }
                     post {
